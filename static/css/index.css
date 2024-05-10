@@ -1,6 +1,8 @@
 @import "commons.css";
 @import "titolo.css";
 @import "hero.css";
+@import "text.css";
+@import "bottone.css";
 
 body{
     margin: 0;
