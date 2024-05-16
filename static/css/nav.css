@@ -1,0 +1,30 @@
+.nav{
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+
+}
+.nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+    color: #fff;
+    line-height: 1;
+    font-size: 20px;
+   
+    
+}
+
+
+.nav::before{
+    content: "";
+    background-image: url(../images/logotipo.png);
+    width: 227px;
+    height: 130px;
+    background-size: 227px 130px;
+    background-repeat: no-repeat;
+    left: 0;
+
+
+}

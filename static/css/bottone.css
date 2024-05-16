@@ -2,7 +2,7 @@
 .bottone a:visited,
 .bottone a:hover,
 .bottone a:active {
-    display: block;
+    
     unicode-bidi: isolate;
     font-size: 30px;
     color: #000;
