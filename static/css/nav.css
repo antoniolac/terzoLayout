@@ -2,20 +2,24 @@
     display: flex;
     justify-content: flex-end;
     position: relative;
+    margin-bottom: 180px;
 
 }
 .nav ul{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     list-style: none;
     color: #fff;
     line-height: 1;
     font-size: 20px;
+    margin-top: 85px;
    
     
 }
 
+.nav li{
+   padding-right: 54px;
+}
 
 .nav::before{
     content: "";
@@ -24,7 +28,9 @@
     height: 130px;
     background-size: 227px 130px;
     background-repeat: no-repeat;
-    left: 0;
+    position: absolute;
+    top:20px;
+    left: 35px;
 
-
+ 
 }

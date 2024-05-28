@@ -1,0 +1,11 @@
+.loghi {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-top: 200px;
+}
+
+.loghi img {
+    padding-right: 30px;
+}

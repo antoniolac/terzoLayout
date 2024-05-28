@@ -1,8 +1,14 @@
+.bottone{
+    margin-top: 55px;
+    border-top: 3px solid #fff;
+    padding-top: 45px;
+}
+
 .bottone a:link,
 .bottone a:visited,
 .bottone a:hover,
 .bottone a:active {
-    
+    display: block;
     unicode-bidi: isolate;
     font-size: 30px;
     color: #000;

@@ -4,6 +4,8 @@
 @import "text.css";
 @import "bottone.css";
 @import "nav.css";
+@import "main.css";
+@import "loghi.css";
 
 body{
     margin: 0;
