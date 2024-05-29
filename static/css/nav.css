@@ -3,7 +3,6 @@
     flex-direction: row;
     justify-content: flex-end;
     position: relative;
-
 }
 .nav ul{
     display: flex;
@@ -13,9 +12,7 @@
     line-height: 1;
     font-size: 20px;
     margin-top: 85px;
-    margin-right: 35px;
-    
-    
+    margin-right: 35px;  
 }
 
 .nav li{
@@ -29,4 +26,12 @@
     margin-left: 35px;
     position: absolute;
     left: 0;
+}
+
+.nav a:link,
+.nav a:visited,
+.nav a:hover,
+.nav a:active{
+    text-decoration: none;
+    color: #fff;
 }
