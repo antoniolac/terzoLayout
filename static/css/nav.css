@@ -1,8 +1,8 @@
 .nav{
     display: flex;
+    flex-direction: row;
     justify-content: flex-end;
     position: relative;
-    margin-bottom: 180px;
 
 }
 .nav ul{
@@ -13,24 +13,20 @@
     line-height: 1;
     font-size: 20px;
     margin-top: 85px;
-   
+    margin-right: 35px;
+    
     
 }
 
 .nav li{
-   padding-right: 54px;
+   padding-left: 54px;
 }
 
-.nav::before{
-    content: "";
-    background-image: url(../images/logotipo.png);
+.nav h1{
     width: 227px;
     height: 130px;
-    background-size: 227px 130px;
-    background-repeat: no-repeat;
+    margin-top: 20px;
+    margin-left: 35px;
     position: absolute;
-    top:20px;
-    left: 35px;
-
- 
+    left: 0;
 }
